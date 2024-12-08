@@ -3,7 +3,7 @@ import { Header } from "../component/Header"
 const DashboardLayout = ({children}:{children: React.ReactNode}) => {
   return (
     <div>
-        <Header />
+        <p>f</p>
         {children}
     </div>
   )
