@@ -1,9 +1,9 @@
-import { Header } from "../component/Header"
+import { TodoForm } from "../component/TodoForm"
 
 const DashboardLayout = ({children}:{children: React.ReactNode}) => {
   return (
     <div>
-        <p>f</p>
+        <TodoForm />
         {children}
     </div>
   )

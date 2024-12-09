@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 export const Header = () => {
   const links = [
     {href: "/", tothe:"Home"},
-    {href: "/pannel", tothe:"Add Todo"},
+    {href: "/todos", tothe:"Add Todo"},
   ]
   return (
     <div>
