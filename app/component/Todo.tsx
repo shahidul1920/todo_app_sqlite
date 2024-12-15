@@ -9,7 +9,5 @@ const Todo = ({todo}) => {
     </div>
   )
 }
-//ther
-//ther
-//ther
+
 export default Todo
