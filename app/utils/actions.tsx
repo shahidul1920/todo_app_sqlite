@@ -12,6 +12,14 @@ export const completeTodo = async (id) => {
     })
     revalidatePath('/todos')
 }
+
+export const deleteTodo = async (id) => {
+    await db.todo.delete({
+        where:{id},
+    })
+    revalidatePath('/todos')
+}
+
 export const newTodo = async (formData) => {
     console.log(formData);
 
