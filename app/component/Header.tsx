@@ -5,7 +5,7 @@ export const Header = () => {
   const links = [
     { href: "/", tothe: "Home" },
     { href: "/todos", tothe: "Add Todo" },
-    { href: "shahidulshakil.me", tothe: "My Web" },
+    { href: "https://shahidulshakil.me", tothe: "My Web" },
   ]
   return (
     <div className='w-[100%] h-[auto] px-[2rem] py-[1rem] bg-green-500 flex gap-[2rem] justify-between items-center text-[#fff]'>
