@@ -10,7 +10,7 @@ export const TodoForm = () => {
                 action={newTodo}
             >
                 <h1 className="text-3xl font-bold text-center uppercase text-gray-800 mb-6">
-                    Add your todo
+                    Add your todo / daily list
                 </h1>
                 <div className="mb-4">
                     <input
